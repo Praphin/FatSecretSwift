@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B39F7A205985CB0079873E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39F79205985CB0079873E /* AppDelegate.swift */; };
+		B8B39F7C205985CB0079873E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39F7B205985CB0079873E /* ViewController.swift */; };
+		B8B39F7F205985CB0079873E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B39F7D205985CB0079873E /* Main.storyboard */; };
+		B8B39F81205985CB0079873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B39F80205985CB0079873E /* Assets.xcassets */; };
+		B8B39F84205985CB0079873E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B39F82205985CB0079873E /* LaunchScreen.storyboard */; };
+		B8B39F8F205985CB0079873E /* FatSecretSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39F8E205985CB0079873E /* FatSecretSwiftTests.swift */; };
+		B8B39F9A205985CB0079873E /* FatSecretSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39F99205985CB0079873E /* FatSecretSwiftUITests.swift */; };
+		B8B39FA8205985EE0079873E /* FatSecretSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B39FA7205985EE0079873E /* FatSecretSwift.swift */; };
+		C1A5236E48E4F197B8EDFE9E /* Pods_FatSecretSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C3A51076E3CADE49C40BE5 /* Pods_FatSecretSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8B39F8B205985CB0079873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B39F6E205985CB0079873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B39F75205985CB0079873E;
+			remoteInfo = FatSecretSwift;
+		};
+		B8B39F96205985CB0079873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B39F6E205985CB0079873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B39F75205985CB0079873E;
+			remoteInfo = FatSecretSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BC57CBC98B0316CFFD36622 /* Pods_FatSecretSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatSecretSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C3A51076E3CADE49C40BE5 /* Pods_FatSecretSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatSecretSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFC5108FB574162B83B332 /* Pods-FatSecretSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatSecretSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FatSecretSwift/Pods-FatSecretSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B57A92FA40B9A7641F2B1A51 /* Pods_FatSecretSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatSecretSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B39F76205985CB0079873E /* FatSecretSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatSecretSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B39F79205985CB0079873E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8B39F7B205985CB0079873E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8B39F7E205985CB0079873E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8B39F80205985CB0079873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8B39F83205985CB0079873E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8B39F85205985CB0079873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B39F8A205985CB0079873E /* FatSecretSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatSecretSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B39F8E205985CB0079873E /* FatSecretSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatSecretSwiftTests.swift; sourceTree = "<group>"; };
+		B8B39F90205985CB0079873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B39F95205985CB0079873E /* FatSecretSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatSecretSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B39F99205985CB0079873E /* FatSecretSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatSecretSwiftUITests.swift; sourceTree = "<group>"; };
+		B8B39F9B205985CB0079873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B39FA7205985EE0079873E /* FatSecretSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatSecretSwift.swift; sourceTree = "<group>"; };
+		D80959B23EF784C62EF3B5DD /* Pods-FatSecretSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatSecretSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FatSecretSwift/Pods-FatSecretSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B39F73205985CB0079873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A5236E48E4F197B8EDFE9E /* Pods_FatSecretSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F87205985CB0079873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F92205985CB0079873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D1D26428F33FCF54592674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFC5108FB574162B83B332 /* Pods-FatSecretSwift.debug.xcconfig */,
+				D80959B23EF784C62EF3B5DD /* Pods-FatSecretSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2432946AF5975DA6CE51ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C3A51076E3CADE49C40BE5 /* Pods_FatSecretSwift.framework */,
+				B57A92FA40B9A7641F2B1A51 /* Pods_FatSecretSwiftTests.framework */,
+				0BC57CBC98B0316CFFD36622 /* Pods_FatSecretSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B39F6D205985CB0079873E = {
+			isa = PBXGroup;
+			children = (
+				B8B39F78205985CB0079873E /* FatSecretSwift */,
+				B8B39F8D205985CB0079873E /* FatSecretSwiftTests */,
+				B8B39F98205985CB0079873E /* FatSecretSwiftUITests */,
+				B8B39F77205985CB0079873E /* Products */,
+				12D1D26428F33FCF54592674 /* Pods */,
+				A2432946AF5975DA6CE51ACC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B39F77205985CB0079873E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B39F76205985CB0079873E /* FatSecretSwift.app */,
+				B8B39F8A205985CB0079873E /* FatSecretSwiftTests.xctest */,
+				B8B39F95205985CB0079873E /* FatSecretSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B39F78205985CB0079873E /* FatSecretSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B8B39F79205985CB0079873E /* AppDelegate.swift */,
+				B8B39F7B205985CB0079873E /* ViewController.swift */,
+				B8B39FA7205985EE0079873E /* FatSecretSwift.swift */,
+				B8B39F7D205985CB0079873E /* Main.storyboard */,
+				B8B39F80205985CB0079873E /* Assets.xcassets */,
+				B8B39F82205985CB0079873E /* LaunchScreen.storyboard */,
+				B8B39F85205985CB0079873E /* Info.plist */,
+			);
+			path = FatSecretSwift;
+			sourceTree = "<group>";
+		};
+		B8B39F8D205985CB0079873E /* FatSecretSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8B39F8E205985CB0079873E /* FatSecretSwiftTests.swift */,
+				B8B39F90205985CB0079873E /* Info.plist */,
+			);
+			path = FatSecretSwiftTests;
+			sourceTree = "<group>";
+		};
+		B8B39F98205985CB0079873E /* FatSecretSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8B39F99205985CB0079873E /* FatSecretSwiftUITests.swift */,
+				B8B39F9B205985CB0079873E /* Info.plist */,
+			);
+			path = FatSecretSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B39F75205985CB0079873E /* FatSecretSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B39F9E205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwift" */;
+			buildPhases = (
+				1D1637102DAEA394A3C254A4 /* [CP] Check Pods Manifest.lock */,
+				B8B39F72205985CB0079873E /* Sources */,
+				B8B39F73205985CB0079873E /* Frameworks */,
+				B8B39F74205985CB0079873E /* Resources */,
+				43BAC9DD6EA3D0C43AAD583F /* [CP] Embed Pods Frameworks */,
+				1B086DB46558FFF68B3DB11A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatSecretSwift;
+			productName = FatSecretSwift;
+			productReference = B8B39F76205985CB0079873E /* FatSecretSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B39F89205985CB0079873E /* FatSecretSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B39FA1205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwiftTests" */;
+			buildPhases = (
+				B8B39F86205985CB0079873E /* Sources */,
+				B8B39F87205985CB0079873E /* Frameworks */,
+				B8B39F88205985CB0079873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B39F8C205985CB0079873E /* PBXTargetDependency */,
+			);
+			name = FatSecretSwiftTests;
+			productName = FatSecretSwiftTests;
+			productReference = B8B39F8A205985CB0079873E /* FatSecretSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8B39F94205985CB0079873E /* FatSecretSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B39FA4205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwiftUITests" */;
+			buildPhases = (
+				B8B39F91205985CB0079873E /* Sources */,
+				B8B39F92205985CB0079873E /* Frameworks */,
+				B8B39F93205985CB0079873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B39F97205985CB0079873E /* PBXTargetDependency */,
+			);
+			name = FatSecretSwiftUITests;
+			productName = FatSecretSwiftUITests;
+			productReference = B8B39F95205985CB0079873E /* FatSecretSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B39F6E205985CB0079873E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nick Bellucci";
+				TargetAttributes = {
+					B8B39F75205985CB0079873E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B8B39F89205985CB0079873E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8B39F75205985CB0079873E;
+					};
+					B8B39F94205985CB0079873E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8B39F75205985CB0079873E;
+					};
+				};
+			};
+			buildConfigurationList = B8B39F71205985CB0079873E /* Build configuration list for PBXProject "FatSecretSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B39F6D205985CB0079873E;
+			productRefGroup = B8B39F77205985CB0079873E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B39F75205985CB0079873E /* FatSecretSwift */,
+				B8B39F89205985CB0079873E /* FatSecretSwiftTests */,
+				B8B39F94205985CB0079873E /* FatSecretSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B39F74205985CB0079873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B39F84205985CB0079873E /* LaunchScreen.storyboard in Resources */,
+				B8B39F81205985CB0079873E /* Assets.xcassets in Resources */,
+				B8B39F7F205985CB0079873E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F88205985CB0079873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F93205985CB0079873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B086DB46558FFF68B3DB11A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatSecretSwift/Pods-FatSecretSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D1637102DAEA394A3C254A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatSecretSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BAC9DD6EA3D0C43AAD583F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FatSecretSwift/Pods-FatSecretSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatSecretSwift/Pods-FatSecretSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B39F72205985CB0079873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B39F7C205985CB0079873E /* ViewController.swift in Sources */,
+				B8B39FA8205985EE0079873E /* FatSecretSwift.swift in Sources */,
+				B8B39F7A205985CB0079873E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F86205985CB0079873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B39F8F205985CB0079873E /* FatSecretSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B39F91205985CB0079873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B39F9A205985CB0079873E /* FatSecretSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B39F8C205985CB0079873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B39F75205985CB0079873E /* FatSecretSwift */;
+			targetProxy = B8B39F8B205985CB0079873E /* PBXContainerItemProxy */;
+		};
+		B8B39F97205985CB0079873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B39F75205985CB0079873E /* FatSecretSwift */;
+			targetProxy = B8B39F96205985CB0079873E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8B39F7D205985CB0079873E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B39F7E205985CB0079873E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8B39F82205985CB0079873E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B39F83205985CB0079873E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8B39F9C205985CB0079873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8B39F9D205985CB0079873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B39F9F205985CB0079873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAFC5108FB574162B83B332 /* Pods-FatSecretSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8B39FA0205985CB0079873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80959B23EF784C62EF3B5DD /* Pods-FatSecretSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8B39FA2205985CB0079873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatSecretSwift.app/FatSecretSwift";
+			};
+			name = Debug;
+		};
+		B8B39FA3205985CB0079873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatSecretSwift.app/FatSecretSwift";
+			};
+			name = Release;
+		};
+		B8B39FA5205985CB0079873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FatSecretSwift;
+			};
+			name = Debug;
+		};
+		B8B39FA6205985CB0079873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FatSecretSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FatSecretSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FatSecretSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B39F71205985CB0079873E /* Build configuration list for PBXProject "FatSecretSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B39F9C205985CB0079873E /* Debug */,
+				B8B39F9D205985CB0079873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B39F9E205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B39F9F205985CB0079873E /* Debug */,
+				B8B39FA0205985CB0079873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B39FA1205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B39FA2205985CB0079873E /* Debug */,
+				B8B39FA3205985CB0079873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B39FA4205985CB0079873E /* Build configuration list for PBXNativeTarget "FatSecretSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B39FA5205985CB0079873E /* Debug */,
+				B8B39FA6205985CB0079873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B39F6E205985CB0079873E /* Project object */;
+}
